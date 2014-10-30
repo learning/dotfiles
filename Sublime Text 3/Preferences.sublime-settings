@@ -6,12 +6,12 @@
 	"draw_white_space": "all",
 	"flatland_sidebar_tree_xsmall": false,
 	"flatland_square_tabs": false,
-	"font_face": "PragmataPro",
+	// "font_face": "PragmataPro",
 	"font_options":
 	[
 		"directwrite"
 	],
-	"font_size": 11,
+	"font_size": 14,
 	"highlight_line": true,
 	"ignored_packages":[],
 	"line_padding_bottom": 1,

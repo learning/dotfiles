@@ -9,3 +9,9 @@ if [ ! -f "~/.zshrc" ]; then
 	rm ~/.zshrc
 fi
 ln -s $cwd/.zshrc ~/.zshrc
+
+# For vim
+if [ ! -f "~/.vimrc" ]; then
+	rm ~/.vimrc
+fi
+ln -s $cwd/.vimrc ~/.vimrc

@@ -6,7 +6,7 @@ filetype plugin on
 
 let mapleader = ","
 syntax enable
-"set foldmethod=syntax
+set foldmethod=syntax
 set ignorecase
 set hlsearch
 set fileencoding=utf-8
@@ -21,6 +21,6 @@ set showmatch
 set number
 set visualbell
 set cursorline
-set nolist
-set listchars=tab:>-,trail:-
+set list
+set listchars=tab:>-,trail:-,nbsp:%,eol:┐
 set autoindent

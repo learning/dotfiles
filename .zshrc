@@ -87,6 +87,7 @@ if
   tmux ls > /dev/null
 then
   if [ -z $TMUX ]
+  then
     tmux a
   fi
 else

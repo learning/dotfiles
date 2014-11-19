@@ -86,11 +86,7 @@ alias vi="vim"
 if
   tmux ls > /dev/null
 then
-  if
-    tmux display-message > /dev/null
-  then
-    # Do nothing
-  else
+  if [ -z $TMUX ]
     tmux a
   fi
 else

@@ -81,6 +81,7 @@ export PATH="$GOPATH/bin:$PATH"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi="vim"
+eval "$(rbenv init -)"
 
 # Run tmux
 if

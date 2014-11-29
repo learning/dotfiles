@@ -4,7 +4,7 @@
   "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
   "default_line_ending": "unix",
   "draw_white_space": "all",
-  // "font_face": "PragmataPro",
+  "font_face": "PragmataPro",
   "font_options":
   [
     "directwrite"

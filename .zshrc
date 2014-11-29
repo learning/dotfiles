@@ -81,16 +81,14 @@ export PATH="$GOPATH/bin:$PATH"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi="vim"
+eval "$(rbenv init -)"
 
 # Run tmux
 if
   tmux ls > /dev/null
 then
-  if
-    tmux display-message > /dev/null
+  if [ -z $TMUX ]
   then
-    # Do nothing
-  else
     tmux a
   fi
 else

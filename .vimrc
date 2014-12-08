@@ -20,7 +20,7 @@ set incsearch
 set showmatch
 set number
 set visualbell
-set cursorline
+"set cursorline
 set list
-set listchars=tab:>-,trail:-,nbsp:%,eol:┐
+set listchars=tab:>-,trail:-,nbsp:%
 set autoindent

@@ -52,6 +52,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="$HOME/.rbenv/bin:$PATH"
 export GOPATH="$HOME/Documents/go"
 export PATH="$GOPATH/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"

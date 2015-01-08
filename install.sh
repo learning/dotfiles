@@ -24,6 +24,8 @@ if [ $OS = "Darwin" ]; then
 	ln -s "$CWD/Sublime Text 3/Python.sublime-build" $SUBLIME/Python.sublime-build
 	rm $SUBLIME/Preferences.sublime-settings
 	ln -s "$CWD/Sublime Text 3/Preferences.sublime-settings" $SUBLIME/Preferences.sublime-settings
+	rm $SUBLIME/Emmet.sublime-settings
+	ln -s "$CWD/Sublime Text 3/Emmet.sublime-settings" $SUBLIME/Emmet.sublime-settings
 	IFS=$_IFS_
 else
 	echo "Linux no need Sublime Text 3"

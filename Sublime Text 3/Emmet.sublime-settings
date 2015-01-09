@@ -1,3 +1,4 @@
 {
-  "disabled_keymap_actions": "expand_abbreviation, balance_outward"
+  "disabled_keymap_actions": "expand_abbreviation, balance_outward",
+  "disabled_single_snippets": "html"
 }

@@ -4,6 +4,8 @@ filetype on
 filetype indent on
 filetype plugin on
 
+call pathogen#infect()
+
 let mapleader = ","
 syntax enable
 set foldmethod=syntax

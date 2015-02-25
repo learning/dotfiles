@@ -15,6 +15,10 @@ ln -s $CWD/.zshrc ~/.zshrc
 rm ~/.vimrc
 ln -s $CWD/.vimrc ~/.vimrc
 
+# For tmux
+rm ~/.tmux.conf
+ln -s $CWD/.tmux.conf ~/.tmux.conf
+
 if [ $OS = "Darwin" ]; then
   # For Sublime Text 3
   _IFS_=$IFS

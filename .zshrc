@@ -58,7 +58,7 @@ export PATH="$GOPATH/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -82,6 +82,8 @@ export PATH="$GOPATH/bin:$PATH"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi="vim"
+alias sv="ssh -p 2233 root@172.1.4.96"
+alias aws="ssh -i ~/.ssh/aws.pem ubuntu@52.11.34.103"
 eval "$(rbenv init -)"
 
 # Run tmux

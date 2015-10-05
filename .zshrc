@@ -52,9 +52,6 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-export PATH="$HOME/.rbenv/bin:$PATH"
-export GOPATH="$HOME/Documents/go"
-export PATH="$GOPATH/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -82,9 +79,7 @@ export LANG=en_US.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi="vim"
-alias sv="ssh -p 2233 root@172.1.4.96"
 alias aws="ssh -i ~/.ssh/aws.pem ubuntu@52.11.34.103"
-eval "$(rbenv init -)"
 
 # Run tmux
 if
@@ -97,5 +92,4 @@ then
 else
   tmux new -s dev
 fi
-
 

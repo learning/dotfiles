@@ -2,13 +2,10 @@
 	"auto_complete_delay": 0,
 	"caret_extra_width": 1,
 	"caret_style": "phase",
-	"theme": "Spacegray Eighties.sublime-theme",
-	"color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
 	"enable_tab_scrolling": false,
 	"default_line_ending": "unix",
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
-	"font_face": "PragmataPro",
 	"font_options":
 	[
 		"directwrite"
